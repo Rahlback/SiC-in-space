@@ -1,0 +1,84 @@
+# This file contains the information for the resistor values and the graph outputs
+# The parser only ignores lines starting with '#', but it will probably not break if '#' is added after a statement
+# since the split will still be the same for preset parts.
+
+# Filename of data
+# Remember that the file has to be in the same directory as the 'main'. Default should be "data.csv"
+# data_test_same_temp.csv
+# data_test.csv
+//Filename
+filename = data_test_sic_8_final_test_before_breaking.csv
+
+#The line below signifies that all lines between it and the end contains different resistor values
+# Possible suffixes are 'k', 'M' where capitalization matters.
+//Resistor values
+sic_rb = 15 k
+sic_rc = 510
+si_rb = 47 k
+si_rc = 300
+//Resistor end
+
+# Graph settings
+# Valid commands are:
+#   sic_color = blue, red, green
+#   si_color = blue, red, green
+#   dotted = True, False    <-- If true, adds a dot on each node
+#   lines = True, False     <-- If true, adds lines between each node
+#
+#   graph_type = standalone,  fitted_standalone
+#                   standalone = 2 separate windows for the 2 graphs
+#                   fitted_standalone = Fitted data in standalone mode,
+#                                       only shows fitted data
+#
+#   fit_polynomial = exp, 1, 2, 3   <-- Fits a curve to the data. 1 to 3 represents polynomial of degree 1 to 3.
+#   show_fit_and_data = True, False  <-- True if data and the fitted data should be shown in the same graph.
+#   x_axis = temp, time  <-- Sets the x axis to show either time or temperature
+#   number_base = hex, decimal <-- Select the whether the data is in hexadecimal or decimal.
+#                                  Mixing hexadecimal and floats is not allowed,
+#                                  however, mixing hexadecimal numbers with integers is allowed.
+#
+#   temperature_unit = mV, C    <-- Specify if temperature is in millivolts[mV] or celsius[C].
+#
+#
+#   convert_from_adc_values = True, False   <-- Specify if values are ADC values and needs to be converted.
+#
+#   separate_windows_for_si_sic = True, False <-- Specify if separate windows are desired. Only works with standalone graphs
+#   temperature_splits_for_ube = x,y,z,a, <-- Sets the temperatures at which to show Ib/Ube curve. Max 4 numbers, but can be less
+#                                               x,y,z,a = should be any number between -50 and 200
+#                                               There should be no spacing after ",".
+#                                               Example:
+#                                               temperature_splits_for_ube = 25
+#                                               temperature_splits_for_ube = 25,100
+#                                               temperature_splits_for_ube = 25,75,100
+#                                               temperature_splits_for_ube = 25,50,75,100
+#
+#   stray = number <-- The offset value for temperature_splits_for_ube. When filtering temperature, matching values are
+#                       temperature_splits_for_ube +- stray.
+#                       I.e. matching_value = [[temperature_splits_for_ube - stray], [temperature_splits_for_ube + stray]
+#                       Specify as an integer or a float. Remember that the temperature is always integers
+#                       # Dev note: It is possible to use the temperature calculations to get non-integer values
+#                       for the temperature. Check Temperature_calc.py. Not implemented in this version.
+#
+#   Note: The function shown in the graph when using a fitted function will be rounded to 2 decimals. The full equation
+#   will be noted in 'equations.txt' #WIP, not yet implemented.
+#
+//Graph settings
+sic_color = red
+si_color = blue
+dotted = False
+lines = True
+graph_type = standalone
+fit_function = 3
+show_fit_and_data = True
+x_axis = temp
+number_base = decimal
+temperature_unit = mV
+convert_from_adc_values = True
+separate_windows_for_si_sic = True
+temperature_splits_for_ube = 30,40,50,60
+stray_value = 1
+filter_bad_ube_sic = 2650
+filter_bad_ube_si = 600
+filter_bad_ic_sic = 0
+filter_bad_ic_si = 1
+//End graph
