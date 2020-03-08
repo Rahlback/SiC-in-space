@@ -1,0 +1,685 @@
+###############################################################################
+#
+# IAR ELF Linker V8.20.1.14183/W32 for ARM                08/Mar/2020  15:27:47
+# Copyright 2007-2017 IAR Systems AB.
+#
+#    Output file  =  
+#        C:\Users\Rasmus\examensarbete_sic_program\Examensarbete-SiC-Program\sic\EWARM\SiCMiC\Exe\SiCMiC.out
+#    Map file     =  
+#        C:\Users\Rasmus\examensarbete_sic_program\Examensarbete-SiC-Program\sic\EWARM\SiCMiC\List\SiCMiC.map
+#    Command line =  
+#        -f C:\Users\Rasmus\AppData\Local\Temp\EW46CB.tmp
+#        (C:\Users\Rasmus\examensarbete_sic_program\Examensarbete-SiC-Program\sic\EWARM\SiCMiC\Obj\adc.o
+#        C:\Users\Rasmus\examensarbete_sic_program\Examensarbete-SiC-Program\sic\EWARM\SiCMiC\Obj\dac.o
+#        C:\Users\Rasmus\examensarbete_sic_program\Examensarbete-SiC-Program\sic\EWARM\SiCMiC\Obj\eeprom_circular.o
+#        C:\Users\Rasmus\examensarbete_sic_program\Examensarbete-SiC-Program\sic\EWARM\SiCMiC\Obj\gpio.o
+#        C:\Users\Rasmus\examensarbete_sic_program\Examensarbete-SiC-Program\sic\EWARM\SiCMiC\Obj\i2c.o
+#        C:\Users\Rasmus\examensarbete_sic_program\Examensarbete-SiC-Program\sic\EWARM\SiCMiC\Obj\interface_flags.o
+#        C:\Users\Rasmus\examensarbete_sic_program\Examensarbete-SiC-Program\sic\EWARM\SiCMiC\Obj\iwdg.o
+#        C:\Users\Rasmus\examensarbete_sic_program\Examensarbete-SiC-Program\sic\EWARM\SiCMiC\Obj\main.o
+#        C:\Users\Rasmus\examensarbete_sic_program\Examensarbete-SiC-Program\sic\EWARM\SiCMiC\Obj\msp_crc.o
+#        C:\Users\Rasmus\examensarbete_sic_program\Examensarbete-SiC-Program\sic\EWARM\SiCMiC\Obj\msp_endian.o
+#        C:\Users\Rasmus\examensarbete_sic_program\Examensarbete-SiC-Program\sic\EWARM\SiCMiC\Obj\msp_exp_callback.o
+#        C:\Users\Rasmus\examensarbete_sic_program\Examensarbete-SiC-Program\sic\EWARM\SiCMiC\Obj\msp_exp_frame.o
+#        C:\Users\Rasmus\examensarbete_sic_program\Examensarbete-SiC-Program\sic\EWARM\SiCMiC\Obj\msp_exp_state.o
+#        C:\Users\Rasmus\examensarbete_sic_program\Examensarbete-SiC-Program\sic\EWARM\SiCMiC\Obj\msp_handlers.o
+#        C:\Users\Rasmus\examensarbete_sic_program\Examensarbete-SiC-Program\sic\EWARM\SiCMiC\Obj\msp_seqflags.o
+#        C:\Users\Rasmus\examensarbete_sic_program\Examensarbete-SiC-Program\sic\EWARM\SiCMiC\Obj\Piezo.o
+#        C:\Users\Rasmus\examensarbete_sic_program\Examensarbete-SiC-Program\sic\EWARM\SiCMiC\Obj\power_management.o
+#        C:\Users\Rasmus\examensarbete_sic_program\Examensarbete-SiC-Program\sic\EWARM\SiCMiC\Obj\start_test.o
+#        C:\Users\Rasmus\examensarbete_sic_program\Examensarbete-SiC-Program\sic\EWARM\SiCMiC\Obj\startup_stm32l053xx.o
+#        C:\Users\Rasmus\examensarbete_sic_program\Examensarbete-SiC-Program\sic\EWARM\SiCMiC\Obj\stm32l0xx_hal.o
+#        C:\Users\Rasmus\examensarbete_sic_program\Examensarbete-SiC-Program\sic\EWARM\SiCMiC\Obj\stm32l0xx_hal_adc.o
+#        C:\Users\Rasmus\examensarbete_sic_program\Examensarbete-SiC-Program\sic\EWARM\SiCMiC\Obj\stm32l0xx_hal_adc_ex.o
+#        C:\Users\Rasmus\examensarbete_sic_program\Examensarbete-SiC-Program\sic\EWARM\SiCMiC\Obj\stm32l0xx_hal_cortex.o
+#        C:\Users\Rasmus\examensarbete_sic_program\Examensarbete-SiC-Program\sic\EWARM\SiCMiC\Obj\stm32l0xx_hal_dac.o
+#        C:\Users\Rasmus\examensarbete_sic_program\Examensarbete-SiC-Program\sic\EWARM\SiCMiC\Obj\stm32l0xx_hal_dac_ex.o
+#        C:\Users\Rasmus\examensarbete_sic_program\Examensarbete-SiC-Program\sic\EWARM\SiCMiC\Obj\stm32l0xx_hal_dma.o
+#        C:\Users\Rasmus\examensarbete_sic_program\Examensarbete-SiC-Program\sic\EWARM\SiCMiC\Obj\stm32l0xx_hal_flash.o
+#        C:\Users\Rasmus\examensarbete_sic_program\Examensarbete-SiC-Program\sic\EWARM\SiCMiC\Obj\stm32l0xx_hal_flash_ex.o
+#        C:\Users\Rasmus\examensarbete_sic_program\Examensarbete-SiC-Program\sic\EWARM\SiCMiC\Obj\stm32l0xx_hal_flash_ramfunc.o
+#        C:\Users\Rasmus\examensarbete_sic_program\Examensarbete-SiC-Program\sic\EWARM\SiCMiC\Obj\stm32l0xx_hal_gpio.o
+#        C:\Users\Rasmus\examensarbete_sic_program\Examensarbete-SiC-Program\sic\EWARM\SiCMiC\Obj\stm32l0xx_hal_i2c.o
+#        C:\Users\Rasmus\examensarbete_sic_program\Examensarbete-SiC-Program\sic\EWARM\SiCMiC\Obj\stm32l0xx_hal_i2c_ex.o
+#        C:\Users\Rasmus\examensarbete_sic_program\Examensarbete-SiC-Program\sic\EWARM\SiCMiC\Obj\stm32l0xx_hal_iwdg.o
+#        C:\Users\Rasmus\examensarbete_sic_program\Examensarbete-SiC-Program\sic\EWARM\SiCMiC\Obj\stm32l0xx_hal_msp.o
+#        C:\Users\Rasmus\examensarbete_sic_program\Examensarbete-SiC-Program\sic\EWARM\SiCMiC\Obj\stm32l0xx_hal_pwr.o
+#        C:\Users\Rasmus\examensarbete_sic_program\Examensarbete-SiC-Program\sic\EWARM\SiCMiC\Obj\stm32l0xx_hal_pwr_ex.o
+#        C:\Users\Rasmus\examensarbete_sic_program\Examensarbete-SiC-Program\sic\EWARM\SiCMiC\Obj\stm32l0xx_hal_rcc.o
+#        C:\Users\Rasmus\examensarbete_sic_program\Examensarbete-SiC-Program\sic\EWARM\SiCMiC\Obj\stm32l0xx_hal_rcc_ex.o
+#        C:\Users\Rasmus\examensarbete_sic_program\Examensarbete-SiC-Program\sic\EWARM\SiCMiC\Obj\stm32l0xx_hal_tim.o
+#        C:\Users\Rasmus\examensarbete_sic_program\Examensarbete-SiC-Program\sic\EWARM\SiCMiC\Obj\stm32l0xx_hal_tim_ex.o
+#        C:\Users\Rasmus\examensarbete_sic_program\Examensarbete-SiC-Program\sic\EWARM\SiCMiC\Obj\stm32l0xx_hal_uart.o
+#        C:\Users\Rasmus\examensarbete_sic_program\Examensarbete-SiC-Program\sic\EWARM\SiCMiC\Obj\stm32l0xx_hal_uart_ex.o
+#        C:\Users\Rasmus\examensarbete_sic_program\Examensarbete-SiC-Program\sic\EWARM\SiCMiC\Obj\stm32l0xx_it.o
+#        C:\Users\Rasmus\examensarbete_sic_program\Examensarbete-SiC-Program\sic\EWARM\SiCMiC\Obj\system_stm32l0xx.o
+#        C:\Users\Rasmus\examensarbete_sic_program\Examensarbete-SiC-Program\sic\EWARM\SiCMiC\Obj\tools.o
+#        C:\Users\Rasmus\examensarbete_sic_program\Examensarbete-SiC-Program\sic\EWARM\SiCMiC\Obj\usart.o
+#        -o
+#        C:\Users\Rasmus\examensarbete_sic_program\Examensarbete-SiC-Program\sic\EWARM\SiCMiC\Exe\SiCMiC.out
+#        --map
+#        C:\Users\Rasmus\examensarbete_sic_program\Examensarbete-SiC-Program\sic\EWARM\SiCMiC\List\SiCMiC.map
+#        --config "C:\Program Files (x86)\IAR Systems\Embedded Workbench
+#        8.0\arm\config\linker\ST\stm32l053x6.icf" --semihosting --entry
+#        __iar_program_start --vfe --text_out locale)
+#
+###############################################################################
+
+*******************************************************************************
+*** RUNTIME MODEL ATTRIBUTES
+***
+
+CppFlavor       = *
+__SystemLibrary = DLib
+__dlib_version  = 6
+
+
+*******************************************************************************
+*** HEAP SELECTION
+***
+
+The basic heap was selected because some modules are built with
+size limitations (and not runtime checking), and --advanced_heap
+was not specified.
+
+
+*******************************************************************************
+*** PLACEMENT SUMMARY
+***
+
+"A0":  place at 0x08000000 { ro section .intvec };
+"P1":  place in [from 0x08000000 to 0x08007fff] { ro };
+define block CSTACK with size = 1K, alignment = 8 { };
+define block HEAP with size = 2K, alignment = 8 { };
+"P2":  place in [from 0x20000000 to 0x20001fff] {
+          rw, block CSTACK, block HEAP };
+initialize by copy { rw };
+
+No sections matched the following patterns:
+
+  section .eeprom  in "P3"
+
+
+  Section            Kind        Address    Size  Object
+  -------            ----        -------    ----  ------
+"A0":                                       0xc0
+  .intvec            ro code  0x08000000    0xc0  startup_stm32l053xx.o [1]
+                            - 0x080000c0    0xc0
+
+"P1":                                     0x543c
+  .text              ro code  0x080000c0   0xbd8  stm32l0xx_hal_i2c.o [1]
+  .text              ro code  0x08000c98    0xf0  i2c.o [1]
+  .text              ro code  0x08000d88   0x18c  main.o [1]
+  .text              ro code  0x08000f14     0x2  stm32l0xx_hal_i2c.o [1]
+  .text              ro code  0x08000f16     0x2  stm32l0xx_hal_i2c.o [1]
+  .text              ro code  0x08000f18     0x2  stm32l0xx_hal_i2c.o [1]
+  .text              ro code  0x08000f1a     0x2  stm32l0xx_hal_i2c.o [1]
+  .text              ro code  0x08000f1c     0x2  stm32l0xx_hal_i2c.o [1]
+  .text              ro code  0x08000f1e     0x2  stm32l0xx_hal_i2c.o [1]
+  .text              ro code  0x08000f20     0x2  stm32l0xx_hal_i2c.o [1]
+  .text              ro code  0x08000f22     0xa  xsprout.o [3]
+  .text              ro code  0x08000f2c    0x58  stm32l0xx_hal_dma.o [1]
+  .text              ro code  0x08000f84     0x2  stm32l0xx_hal_i2c.o [1]
+  .text              ro code  0x08000f86     0x2  stm32l0xx_hal_i2c.o [1]
+  .text              ro code  0x08000f88    0xcc  stm32l0xx_hal_i2c_ex.o [1]
+  .text              ro code  0x08001054    0x34  ABImemset.o [4]
+  .text              ro code  0x08001088   0x1f0  stm32l0xx_hal_gpio.o [1]
+  .text              ro code  0x08001278    0xf8  stm32l0xx_hal_cortex.o [1]
+  .text              ro code  0x08001370    0x2c  stm32l0xx_hal.o [1]
+  .text              ro code  0x0800139c    0x60  interface_flags.o [1]
+  .text              ro code  0x080013fc   0x148  gpio.o [1]
+  .text              ro code  0x08001544   0x220  adc.o [1]
+  .text              ro code  0x08001764    0xa8  dac.o [1]
+  .text              ro code  0x0800180c    0xc4  usart.o [1]
+  .text              ro code  0x080018d0   0x5a4  msp_exp_callback.o [1]
+  .text              ro code  0x08001e74    0x36  tools.o [1]
+  .text              ro code  0x08001eaa     0x2  startup_stm32l053xx.o [1]
+  .text              ro code  0x08001eac   0x8a0  stm32l0xx_hal_rcc.o [1]
+  .text              ro code  0x0800274c   0x228  stm32l0xx_hal_rcc_ex.o [1]
+  .text              ro code  0x08002974    0x34  stm32l0xx_hal.o [1]
+  .text              ro code  0x080029a8    0x38  stm32l0xx_hal_msp.o [1]
+  .text              ro code  0x080029e0   0x1e8  eeprom_circular.o [1]
+  .text              ro code  0x08002bc8    0x48  msp_exp_state.o [1]
+  .text              ro code  0x08002c10   0x234  msp_seqflags.o [1]
+  .text              ro code  0x08002e44    0x5c  ABImemcpy.o [4]
+  .text              ro code  0x08002ea0   0x648  stm32l0xx_hal_adc.o [1]
+  .text              ro code  0x080034e8    0x7c  stm32l0xx_hal_dac.o [1]
+  .text              ro code  0x08003564   0x7f0  stm32l0xx_hal_uart.o [1]
+  .text              ro code  0x08003d54    0xae  msp_exp_frame.o [1]
+  .text              ro code  0x08003e02    0x2e  msp_endian.o [1]
+  .text              ro code  0x08003e30   0x10c  msp_handlers.o [1]
+  .text              ro code  0x08003f3c     0xc  stm32l0xx_hal.o [1]
+  .text              ro code  0x08003f48    0xae  I32DivModFast.o [4]
+  .text              ro code  0x08003ff6     0x2  startup_stm32l053xx.o [1]
+  .text              ro code  0x08003ff8    0xb8  stm32l0xx_hal_flash_ex.o [1]
+  .text              ro code  0x080040b0    0x32  I64Mul.o [4]
+  .text              ro code  0x080040e2    0x6a  I64DivMod.o [4]
+  .text              ro code  0x0800414c    0x80  msp_crc.o [1]
+  .text              ro code  0x080041cc   0x2e4  Piezo.o [1]
+  .text              ro code  0x080044b0   0x410  start_test.o [1]
+  .text              ro code  0x080048c0    0xfc  power_management.o [1]
+  .text              ro code  0x080049bc     0x2  IntDivZer.o [4]
+  .text              ro code  0x080049be     0x2  startup_stm32l053xx.o [1]
+  .text              ro code  0x080049c0   0x154  stm32l0xx_hal_flash.o [1]
+  .text              ro code  0x08004b14     0x2  I64DivZer.o [4]
+  .text              ro code  0x08004b16    0x20  stm32l0xx_hal.o [1]
+  .text              ro code  0x08004b36     0x2  startup_stm32l053xx.o [1]
+  .text              ro code  0x08004b38    0x40  sprintf.o [3]
+  .text              ro code  0x08004b78    0xc8  stm32l0xx_hal_adc_ex.o [1]
+  .text              ro code  0x08004c40    0x72  stm32l0xx_hal_dac_ex.o [1]
+  .text              ro code  0x08004cb2     0x2  startup_stm32l053xx.o [1]
+  .text              ro code  0x08004cb4   0x51c  xprintfsmall_nomb.o [3]
+  .text              ro code  0x080051d0    0x16  strchr.o [4]
+  .text              ro code  0x080051e6     0x2  startup_stm32l053xx.o [1]
+  .text              ro code  0x080051e8    0x48  xfail_s.o [3]
+  .text              ro code  0x08005230    0x10  strlen.o [4]
+  .text              ro code  0x08005240    0x18  memchr.o [4]
+  .text              ro code  0x08005258     0xa  abort.o [3]
+  .text              ro code  0x08005262     0x2  startup_stm32l053xx.o [1]
+  .text              ro code  0x08005264    0x14  exit.o [5]
+  .text              ro code  0x08005278    0x2c  iarttio.o [5]
+  .text              ro code  0x080052a4     0x8  XShttio.o [3]
+  .text              ro code  0x080052ac    0x80  system_stm32l0xx.o [1]
+  .text              ro code  0x0800532c    0x3c  zero_init3.o [4]
+  .text              ro code  0x08005368    0x30  stm32l0xx_it.o [1]
+  .text              ro code  0x08005398    0x10  stm32l0xx_hal.o [1]
+  .text              ro code  0x080053a8    0x30  copy_init3.o [4]
+  .text              ro code  0x080053d8    0x28  data_init.o [4]
+  .iar.init_table    const    0x08005400    0x24  - Linker created -
+  .text              ro code  0x08005424    0x1e  cmain.o [4]
+  .text              ro code  0x08005442     0x4  low_level_init.o [3]
+  .text              ro code  0x08005446     0x8  exit.o [3]
+  .text              ro code  0x0800544e     0x2  startup_stm32l053xx.o [1]
+  .text              ro code  0x08005450     0xa  cexit.o [4]
+  .text              ro code  0x0800545a     0x2  startup_stm32l053xx.o [1]
+  Initializer bytes  const    0x0800545c    0x1c  <for P2-1>
+  .text              ro code  0x08005478     0x2  startup_stm32l053xx.o [1]
+  .rodata            const    0x0800547c    0x10  system_stm32l0xx.o [1]
+  .text              ro code  0x0800548c    0x10  startup_stm32l053xx.o [1]
+  .rodata            const    0x0800549c     0xc  system_stm32l0xx.o [1]
+  .text              ro code  0x080054a8     0xc  cstartup_M.o [4]
+  .rodata            const    0x080054b4     0x8  adc.o [1]
+  .rodata            const    0x080054bc     0x8  dac.o [1]
+  .rodata            const    0x080054c4     0x8  Piezo.o [1]
+  .rodata            const    0x080054cc     0x8  system_stm32l0xx.o [1]
+  .text              ro code  0x080054d4     0x2  startup_stm32l053xx.o [1]
+  .text              ro code  0x080054d6     0x2  startup_stm32l053xx.o [1]
+  .text              ro code  0x080054d8     0x2  startup_stm32l053xx.o [1]
+  .text              ro code  0x080054da     0x2  startup_stm32l053xx.o [1]
+  .text              ro code  0x080054dc     0x2  startup_stm32l053xx.o [1]
+  .text              ro code  0x080054de     0x2  startup_stm32l053xx.o [1]
+  .text              ro code  0x080054e0     0x2  startup_stm32l053xx.o [1]
+  .text              ro code  0x080054e2     0x2  startup_stm32l053xx.o [1]
+  .text              ro code  0x080054e4     0x2  startup_stm32l053xx.o [1]
+  .text              ro code  0x080054e6     0x2  startup_stm32l053xx.o [1]
+  .text              ro code  0x080054e8     0x2  startup_stm32l053xx.o [1]
+  .text              ro code  0x080054ea     0x2  startup_stm32l053xx.o [1]
+  .text              ro code  0x080054ec     0x2  startup_stm32l053xx.o [1]
+  .text              ro code  0x080054ee     0x2  startup_stm32l053xx.o [1]
+  .text              ro code  0x080054f0     0x2  startup_stm32l053xx.o [1]
+  .text              ro code  0x080054f2     0x2  startup_stm32l053xx.o [1]
+  .text              ro code  0x080054f4     0x2  startup_stm32l053xx.o [1]
+  .text              ro code  0x080054f6     0x2  startup_stm32l053xx.o [1]
+  .text              ro code  0x080054f8     0x2  startup_stm32l053xx.o [1]
+  .text              ro code  0x080054fa     0x2  startup_stm32l053xx.o [1]
+  .rodata            const    0x080054fc     0x0  zero_init3.o [4]
+  .rodata            const    0x080054fc     0x0  copy_init3.o [4]
+                            - 0x080054fc  0x543c
+
+"P2", part 1 of 3:                          0x1c
+  P2-1                        0x20000000    0x19  <Init block>
+    .data            inited   0x20000000     0x4  Piezo.o [1]
+    .data            inited   0x20000004     0x4  Piezo.o [1]
+    .data            inited   0x20000008     0x4  Piezo.o [1]
+    .data            inited   0x2000000c     0x4  system_stm32l0xx.o [1]
+    .data            inited   0x20000010     0x8  XShttio.o [3]
+    .data            inited   0x20000018     0x1  main.o [1]
+                            - 0x20000019    0x19
+
+"P2", part 2 of 3:                        0x11f0
+  .bss               zero     0x2000001c   0x400  msp_crc.o [1]
+  .bss               zero     0x2000041c   0x320  Piezo.o [1]
+  .bss               zero     0x2000073c   0x2d0  start_test.o [1]
+  .bss               zero     0x20000a0c   0x2d0  start_test.o [1]
+  .bss               zero     0x20000cdc   0x200  main.o [1]
+  .bss               zero     0x20000edc    0xc8  Piezo.o [1]
+  .bss               zero     0x20000fa4    0xc8  Piezo.o [1]
+  .bss               zero     0x2000106c    0x80  usart.o [1]
+  .bss               zero     0x200010ec    0x5c  adc.o [1]
+  .bss               zero     0x20001148    0x4c  i2c.o [1]
+  .bss               zero     0x20001194    0x24  msp_exp_state.o [1]
+  .bss               zero     0x200011b8    0x18  stm32l0xx_hal_flash.o [1]
+  .bss               zero     0x200011d0    0x10  dac.o [1]
+  .bss               zero     0x200011e0     0x8  Piezo.o [1]
+  .bss               zero     0x200011e8     0x4  main.o [1]
+  .bss               zero     0x200011ec     0x4  main.o [1]
+  .bss               zero     0x200011f0     0x4  msp_handlers.o [1]
+  .bss               zero     0x200011f4     0x4  Piezo.o [1]
+  .bss               zero     0x200011f8     0x4  stm32l0xx_hal.o [1]
+  .bss               zero     0x200011fc     0x4  xfail_s.o [3]
+  .bss               zero     0x20001200     0x2  main.o [1]
+  .bss               zero     0x20001202     0x1  main.o [1]
+  .bss               zero     0x20001203     0x1  main.o [1]
+  .bss               zero     0x20001204     0x1  main.o [1]
+  .bss               zero     0x20001205     0x1  main.o [1]
+  .bss               zero     0x20001206     0x1  msp_crc.o [1]
+  .bss               zero     0x20001207     0x1  Piezo.o [1]
+  .bss               zero     0x20001208     0x1  power_management.o [1]
+  .bss               zero     0x20001209     0x1  power_management.o [1]
+                            - 0x2000120a  0x11ee
+
+"P2", part 3 of 3:                         0x400
+  CSTACK                      0x20001210   0x400  <Block>
+    CSTACK           uninit   0x20001210   0x400  <Block tail>
+                            - 0x20001610   0x400
+
+
+*******************************************************************************
+*** INIT TABLE
+***
+
+          Address     Size
+          -------     ----
+Zero (__iar_zero_init3)
+    1 destination range, total size 0x11ee:
+          0x2000001c  0x11ee
+
+Copy (__iar_copy_init3)
+    1 source range, total size 0x1c (112% of destination):
+          0x0800545c    0x1c
+    1 destination range, total size 0x19:
+          0x20000000    0x19
+
+
+
+*******************************************************************************
+*** MODULE SUMMARY
+***
+
+    Module                    ro code  ro data  rw data
+    ------                    -------  -------  -------
+C:\Users\Rasmus\examensarbete_sic_program\Examensarbete-SiC-Program\sic\EWARM\SiCMiC\Obj: [1]
+    Piezo.o                       740       20    1 225
+    adc.o                         544        8       92
+    dac.o                         168        8       16
+    eeprom_circular.o             488
+    gpio.o                        328
+    i2c.o                         240                76
+    interface_flags.o              96
+    main.o                        396        1      527
+    msp_crc.o                     128             1 025
+    msp_endian.o                   46
+    msp_exp_callback.o          1 444
+    msp_exp_frame.o               174
+    msp_exp_state.o                72                36
+    msp_handlers.o                268                 4
+    msp_seqflags.o                564
+    power_management.o            252                 2
+    start_test.o                1 040             1 440
+    startup_stm32l053xx.o         268
+    stm32l0xx_hal.o               156                 4
+    stm32l0xx_hal_adc.o         1 608
+    stm32l0xx_hal_adc_ex.o        200
+    stm32l0xx_hal_cortex.o        248
+    stm32l0xx_hal_dac.o           124
+    stm32l0xx_hal_dac_ex.o        114
+    stm32l0xx_hal_dma.o            88
+    stm32l0xx_hal_flash.o         340                24
+    stm32l0xx_hal_flash_ex.o      184
+    stm32l0xx_hal_gpio.o          496
+    stm32l0xx_hal_i2c.o         3 050
+    stm32l0xx_hal_i2c_ex.o        204
+    stm32l0xx_hal_msp.o            56
+    stm32l0xx_hal_rcc.o         2 208
+    stm32l0xx_hal_rcc_ex.o        552
+    stm32l0xx_hal_uart.o        2 032
+    stm32l0xx_it.o                 48
+    system_stm32l0xx.o            128       40        4
+    tools.o                        54
+    usart.o                       196               128
+    ---------------------------------------------------
+    Total:                     19 342       77    4 603
+
+command line: [2]
+    ---------------------------------------------------
+    Total:
+
+dl6M_tln.a: [3]
+    XShttio.o                       8        8        8
+    abort.o                        10
+    exit.o                          8
+    low_level_init.o                4
+    sprintf.o                      64
+    xfail_s.o                      72                 4
+    xprintfsmall_nomb.o         1 308
+    xsprout.o                      10
+    ---------------------------------------------------
+    Total:                      1 484        8       12
+
+rt6M_tl.a: [4]
+    ABImemcpy.o                    92
+    ABImemset.o                    52
+    I32DivModFast.o               174
+    I64DivMod.o                   106
+    I64DivZer.o                     2
+    I64Mul.o                       50
+    IntDivZer.o                     2
+    cexit.o                        10
+    cmain.o                        30
+    copy_init3.o                   48
+    cstartup_M.o                   12
+    data_init.o                    40
+    memchr.o                       24
+    strchr.o                       22
+    strlen.o                       16
+    zero_init3.o                   60
+    ---------------------------------------------------
+    Total:                        740
+
+shb_l.a: [5]
+    exit.o                         20
+    iarttio.o                      44
+    ---------------------------------------------------
+    Total:                         64
+
+    Gaps                                     2
+    Linker created                          39    1 024
+-------------------------------------------------------
+    Grand Total:               21 630      126    5 639
+
+
+*******************************************************************************
+*** ENTRY LIST
+***
+
+Entry                      Address   Size  Type      Object
+-----                      -------   ----  ----      ------
+.iar.init_table$$Base   0x08005400          --   Gb  - Linker created -
+.iar.init_table$$Limit  0x08005424          --   Gb  - Linker created -
+?main                   0x08005425         Code  Gb  cmain.o [4]
+ADC_ConversionStop      0x08003453   0x5a  Code  Lc  stm32l0xx_hal_adc.o [1]
+ADC_DelayMicroSecond    0x080034b5   0x22  Code  Lc  stm32l0xx_hal_adc.o [1]
+ADC_Disable             0x080033cd   0x86  Code  Lc  stm32l0xx_hal_adc.o [1]
+ADC_Enable              0x0800333b   0x86  Code  Lc  stm32l0xx_hal_adc.o [1]
+AHBPrescTable           0x0800547c   0x10  Data  Gb  system_stm32l0xx.o [1]
+APBPrescTable           0x080054cc    0x8  Data  Gb  system_stm32l0xx.o [1]
+CSTACK$$Base            0x20001210          --   Gb  - Linker created -
+CSTACK$$Limit           0x20001610          --   Gb  - Linker created -
+EEPROM_read_buffer      0x08002a39   0xac  Code  Gb  eeprom_circular.o [1]
+EEPROM_write_buffer     0x08002ae5   0xb6  Code  Gb  eeprom_circular.o [1]
+Error_Handler           0x08000f11    0x4  Code  Gb  main.o [1]
+FLASH_SetErrorCode      0x08004a41   0xcc  Code  Lc  stm32l0xx_hal_flash.o [1]
+FLASH_WaitForLastOperation
+                        0x080049c1   0x7e  Code  Gb  stm32l0xx_hal_flash.o [1]
+Flush_Buffer8           0x08001e75   0x16  Code  Gb  tools.o [1]
+HAL_ADCEx_Calibration_Start
+                        0x08004b79   0xc4  Code  Gb  stm32l0xx_hal_adc_ex.o [1]
+HAL_ADC_ConfigChannel   0x0800325b   0xde  Code  Gb  stm32l0xx_hal_adc.o [1]
+HAL_ADC_GetValue        0x08003255    0x6  Code  Gb  stm32l0xx_hal_adc.o [1]
+HAL_ADC_Init            0x08002ea1  0x214  Code  Gb  stm32l0xx_hal_adc.o [1]
+HAL_ADC_MspInit         0x08001699   0x84  Code  Gb  adc.o [1]
+HAL_ADC_PollForConversion
+                        0x08003175   0xd2  Code  Gb  stm32l0xx_hal_adc.o [1]
+HAL_ADC_Start           0x080030b5   0x64  Code  Gb  stm32l0xx_hal_adc.o [1]
+HAL_ADC_Stop            0x0800311d   0x46  Code  Gb  stm32l0xx_hal_adc.o [1]
+HAL_DAC_ConfigChannel   0x08003515   0x4a  Code  Gb  stm32l0xx_hal_dac.o [1]
+HAL_DAC_Init            0x080034e9   0x2c  Code  Gb  stm32l0xx_hal_dac.o [1]
+HAL_DAC_MspInit         0x080017a1   0x58  Code  Gb  dac.o [1]
+HAL_DAC_SetValue        0x08004c97   0x1c  Code  Gb  stm32l0xx_hal_dac_ex.o [1]
+HAL_DAC_Start           0x08004c41   0x56  Code  Gb  stm32l0xx_hal_dac_ex.o [1]
+HAL_DMA_Abort_IT        0x08000f2d   0x58  Code  Gb  stm32l0xx_hal_dma.o [1]
+HAL_Delay               0x08004b17   0x20  Code  Wk  stm32l0xx_hal.o [1]
+HAL_FLASHEx_DATAEEPROM_Lock
+                        0x08004029   0x10  Code  Gb  stm32l0xx_hal_flash_ex.o [1]
+HAL_FLASHEx_DATAEEPROM_Program
+                        0x0800403d   0x5e  Code  Gb  stm32l0xx_hal_flash_ex.o [1]
+HAL_FLASHEx_DATAEEPROM_Unlock
+                        0x08003ff9   0x30  Code  Gb  stm32l0xx_hal_flash_ex.o [1]
+HAL_GPIO_Init           0x08001089  0x1b4  Code  Gb  stm32l0xx_hal_gpio.o [1]
+HAL_GPIO_WritePin       0x08001255   0x14  Code  Gb  stm32l0xx_hal_gpio.o [1]
+HAL_GetTick             0x08003f3d    0xc  Code  Wk  stm32l0xx_hal.o [1]
+HAL_I2CEx_ConfigAnalogFilter
+                        0x08000f89   0x64  Code  Gb  stm32l0xx_hal_i2c_ex.o [1]
+HAL_I2CEx_ConfigDigitalFilter
+                        0x08000fed   0x5e  Code  Gb  stm32l0xx_hal_i2c_ex.o [1]
+HAL_I2C_AddrCallback    0x08000e4d    0xa  Code  Gb  main.o [1]
+HAL_I2C_ER_IRQHandler   0x0800021b   0x62  Code  Gb  stm32l0xx_hal_i2c.o [1]
+HAL_I2C_EV_IRQHandler   0x08000205   0x16  Code  Gb  stm32l0xx_hal_i2c.o [1]
+HAL_I2C_GetState        0x0800027d    0x6  Code  Gb  stm32l0xx_hal_i2c.o [1]
+HAL_I2C_Init            0x080000c1   0xcc  Code  Gb  stm32l0xx_hal_i2c.o [1]
+HAL_I2C_MspInit         0x08000d03   0x6c  Code  Gb  i2c.o [1]
+HAL_I2C_Slave_TxRx_IT   0x08000199   0x5c  Code  Gb  stm32l0xx_hal_i2c.o [1]
+HAL_IncTick             0x08005399   0x10  Code  Wk  stm32l0xx_hal.o [1]
+HAL_Init                0x08001371   0x28  Code  Gb  stm32l0xx_hal.o [1]
+HAL_InitTick            0x08002975   0x34  Code  Wk  stm32l0xx_hal.o [1]
+HAL_MspInit             0x080029a9   0x38  Code  Gb  stm32l0xx_hal_msp.o [1]
+HAL_NVIC_EnableIRQ      0x08001345    0xa  Code  Gb  stm32l0xx_hal_cortex.o [1]
+HAL_NVIC_SetPriority    0x0800133b    0xa  Code  Gb  stm32l0xx_hal_cortex.o [1]
+HAL_RCCEx_PeriphCLKConfig
+                        0x0800274d  0x1f0  Code  Gb  stm32l0xx_hal_rcc_ex.o [1]
+HAL_RCC_ClockConfig     0x08002489  0x1ba  Code  Gb  stm32l0xx_hal_rcc.o [1]
+HAL_RCC_GetHCLKFreq     0x080026dd    0x6  Code  Gb  stm32l0xx_hal_rcc.o [1]
+HAL_RCC_GetPCLK1Freq    0x080026e3   0x18  Code  Gb  stm32l0xx_hal_rcc.o [1]
+HAL_RCC_GetPCLK2Freq    0x08002701   0x18  Code  Gb  stm32l0xx_hal_rcc.o [1]
+HAL_RCC_GetSysClockFreq
+                        0x08002659   0x84  Code  Gb  stm32l0xx_hal_rcc.o [1]
+HAL_RCC_OscConfig       0x08001ead  0x5b2  Code  Gb  stm32l0xx_hal_rcc.o [1]
+HAL_SYSTICK_Config      0x0800134f    0x8  Code  Gb  stm32l0xx_hal_cortex.o [1]
+HAL_UART_Init           0x08003565   0x7a  Code  Gb  stm32l0xx_hal_uart.o [1]
+HAL_UART_MspInit        0x0800185d   0x62  Code  Gb  usart.o [1]
+HAL_UART_Receive        0x080036cd  0x13c  Code  Gb  stm32l0xx_hal_uart.o [1]
+HAL_UART_Transmit       0x080035e5   0xe8  Code  Gb  stm32l0xx_hal_uart.o [1]
+I2C1_IRQHandler         0x08005371   0x22  Code  Gb  stm32l0xx_it.o [1]
+I2C_DMAAbort            0x08000b1d   0x2a  Code  Lc  stm32l0xx_hal_i2c.o [1]
+I2C_Disable_IRQ         0x08000c11   0x88  Code  Lc  stm32l0xx_hal_i2c.o [1]
+I2C_Enable_IRQ          0x08000b71   0x92  Code  Lc  stm32l0xx_hal_i2c.o [1]
+I2C_Flush_TXDR          0x08000ae3   0x26  Code  Lc  stm32l0xx_hal_i2c.o [1]
+I2C_ITAddrCplt          0x080005d9   0xf6  Code  Lc  stm32l0xx_hal_i2c.o [1]
+I2C_ITError             0x080009e1  0x102  Code  Lc  stm32l0xx_hal_i2c.o [1]
+I2C_ITListenCplt        0x08000971   0x68  Code  Lc  stm32l0xx_hal_i2c.o [1]
+I2C_ITMasterCplt        0x08000783   0xd6  Code  Lc  stm32l0xx_hal_i2c.o [1]
+I2C_ITMasterSeqCplt     0x080006cf   0x5a  Code  Lc  stm32l0xx_hal_i2c.o [1]
+I2C_ITSlaveCplt         0x08000859  0x118  Code  Lc  stm32l0xx_hal_i2c.o [1]
+I2C_ITSlaveSeqCplt      0x08000729   0x5a  Code  Lc  stm32l0xx_hal_i2c.o [1]
+I2C_Master_ISR_DMA      0x080003ad  0x134  Code  Lc  stm32l0xx_hal_i2c.o [1]
+I2C_Slave_ISR_DMA       0x080004e1   0xf2  Code  Lc  stm32l0xx_hal_i2c.o [1]
+I2C_Slave_ISR_IT        0x08000283  0x124  Code  Lc  stm32l0xx_hal_i2c.o [1]
+I2C_TransferConfig      0x08000b47   0x2a  Code  Lc  stm32l0xx_hal_i2c.o [1]
+LoadInt                 0x08004ef5   0x5a  Code  Lc  xprintfsmall_nomb.o [3]
+MX_ADC_Init             0x08001545  0x154  Code  Gb  adc.o [1]
+MX_DAC_Init             0x08001765   0x3c  Code  Gb  dac.o [1]
+MX_GPIO_Init            0x080013fd  0x148  Code  Gb  gpio.o [1]
+MX_I2C1_Init            0x08000c99   0x6a  Code  Gb  i2c.o [1]
+MX_USART1_UART_Init     0x0800180d   0x50  Code  Gb  usart.o [1]
+NUMBER_OF_READ_ATTEMTS  0x20000000    0x4  Data  Gb  Piezo.o [1]
+NVIC_EnableIRQ          0x08001279    0xe  Code  Lc  stm32l0xx_hal_cortex.o [1]
+NVIC_SetPriority        0x08001287   0x84  Code  Lc  stm32l0xx_hal_cortex.o [1]
+PLLMulTable             0x0800549c    0xc  Data  Gb  system_stm32l0xx.o [1]
+RS485                   0x080041cd   0x6a  Code  Gb  Piezo.o [1]
+Region$$Table$$Base     0x08005400          --   Gb  - Linker created -
+Region$$Table$$Limit    0x08005424          --   Gb  - Linker created -
+SysTick_Config          0x0800130b   0x30  Code  Lc  stm32l0xx_hal_cortex.o [1]
+SysTick_Handler         0x08005369    0x8  Code  Gb  stm32l0xx_it.o [1]
+SystemClock_Config      0x08000e5d   0xa2  Code  Gb  main.o [1]
+SystemCoreClock         0x2000000c    0x4  Data  Gb  system_stm32l0xx.o [1]
+SystemInit              0x080052ad   0x5a  Code  Gb  system_stm32l0xx.o [1]
+UART_AdvFeatureConfig   0x08003b6d   0xde  Code  Gb  stm32l0xx_hal_uart.o [1]
+UART_CheckIdleState     0x08003c51   0x64  Code  Gb  stm32l0xx_hal_uart.o [1]
+UART_SetConfig          0x0800380d  0x34e  Code  Gb  stm32l0xx_hal_uart.o [1]
+UART_WaitOnFlagUntilTimeout
+                        0x08003cbd   0x66  Code  Gb  stm32l0xx_hal_uart.o [1]
+_LitobSmallNoMb         0x08005091   0xea  Code  Lc  xprintfsmall_nomb.o [3]
+_PrintfSmallNoMb        0x08004cb5  0x234  Code  Gb  xprintfsmall_nomb.o [3]
+_PutcharsSmallNoMb      0x08005181   0x32  Code  Lc  xprintfsmall_nomb.o [3]
+_PutfldSmallNoMb        0x08004f51  0x140  Code  Lc  xprintfsmall_nomb.o [3]
+_SProut                 0x08000f23    0xa  Code  Gb  xsprout.o [3]
+__aeabi_idiv0           0x080049bd         Code  Gb  IntDivZer.o [4]
+__aeabi_ldiv0           0x08004b15         Code  Gb  I64DivZer.o [4]
+__aeabi_lmul            0x080040b1         Code  Gb  I64Mul.o [4]
+__aeabi_memclr4         0x08001085         Code  Gb  ABImemset.o [4]
+__aeabi_memclr8         0x08001085         Code  Gb  ABImemset.o [4]
+__aeabi_memcpy          0x08002e45         Code  Gb  ABImemcpy.o [4]
+__aeabi_uidiv           0x08003f49         Code  Gb  I32DivModFast.o [4]
+__aeabi_uidivmod        0x08003f49         Code  Gb  I32DivModFast.o [4]
+__aeabi_uldivmod        0x080040e3         Code  Gb  I64DivMod.o [4]
+__cmain                 0x08005425         Code  Gb  cmain.o [4]
+__exit                  0x08005265   0x14  Code  Gb  exit.o [5]
+__iar_Fail_s            0x080051e9   0x22  Code  Gb  xfail_s.o [3]
+__iar_Memset4_word      0x08001055         Code  Gb  ABImemset.o [4]
+__iar_close_ttio        0x08005279   0x2c  Code  Gb  iarttio.o [5]
+__iar_copy_init3        0x080053a9   0x30  Code  Gb  copy_init3.o [4]
+__iar_data_init3        0x080053d9   0x28  Code  Gb  data_init.o [4]
+__iar_lookup_ttioh      0x080052a5    0x8  Code  Gb  XShttio.o [3]
+__iar_program_start     0x080054a9         Code  Gb  cstartup_M.o [4]
+__iar_systems$$module {Abs}
+                        0x00000001         Data  Gb  command line/config [2]
+__iar_ttio_handles      0x20000010    0x8  Data  Lc  XShttio.o [3]
+__iar_zero_init3        0x0800532d   0x3c  Code  Gb  zero_init3.o [4]
+__low_level_init        0x08005443    0x4  Code  Gb  low_level_init.o [3]
+__vector_table          0x08000000         Data  Gb  startup_stm32l053xx.o [1]
+_call_main              0x08005431         Code  Gb  cmain.o [4]
+_exit                   0x08005451         Code  Gb  cexit.o [4]
+_main                   0x0800543f         Code  Gb  cmain.o [4]
+aBuffer                 0x20000cdc  0x200  Data  Gb  main.o [1]
+abort                   0x08005259    0xa  Code  Gb  abort.o [3]
+addr                    0x20000018    0x1  Data  Gb  main.o [1]
+addr_debug              0x20001200    0x2  Data  Gb  main.o [1]
+ascii_to_int            0x0800441d   0x30  Code  Gb  Piezo.o [1]
+buffLength              0x200011e8    0x4  Data  Gb  main.o [1]
+buff_length             0x08001e8b   0x20  Code  Gb  tools.o [1]
+buffer                  0x20000a0c  0x2d0  Data  Gb  start_test.o [1]
+checksum                0x080029e1   0x30  Code  Gb  eeprom_circular.o [1]
+clear_piezo_buffer      0x08004237   0x20  Code  Gb  Piezo.o [1]
+clear_sic_buffer        0x080044b1    0xe  Code  Gb  start_test.o [1]
+command_ptr             0x200011ec    0x4  Data  Gb  main.o [1]
+convert_8bit            0x080047d1   0xae  Code  Gb  start_test.o [1]
+convert_to_8bit         0x0800444d   0x2a  Code  Gb  Piezo.o [1]
+dataLength              0x200011f4    0x4  Data  Gb  Piezo.o [1]
+ensure_ready_state      0x08001e2d   0x3e  Code  Lc  msp_exp_callback.o [1]
+exit                    0x08005447    0x8  Code  Gb  exit.o [3]
+experiments             0x2000073c  0x2d0  Data  Lc  start_test.o [1]
+find_current_EEPROM_address
+                        0x08002a11   0x28  Code  Lc  eeprom_circular.o [1]
+hadc                    0x200010ec   0x5c  Data  Gb  adc.o [1]
+handle_incoming_control_frame
+                        0x08001a81   0xe2  Code  Lc  msp_exp_callback.o [1]
+handle_incoming_data_frame
+                        0x080019dd   0x5c  Code  Lc  msp_exp_callback.o [1]
+handle_incoming_frame   0x08001985   0x58  Code  Lc  msp_exp_callback.o [1]
+handle_incoming_header_frame
+                        0x08001a39   0x48  Code  Lc  msp_exp_callback.o [1]
+handle_incoming_request_frame
+                        0x08001baf   0x4c  Code  Lc  msp_exp_callback.o [1]
+handle_incoming_send_frame
+                        0x08001c01   0x50  Code  Lc  msp_exp_callback.o [1]
+handle_incoming_system_frame
+                        0x08001b63   0x4c  Code  Lc  msp_exp_callback.o [1]
+handle_outgoing_acknowledge_frame
+                        0x08001d71   0xbc  Code  Lc  msp_exp_callback.o [1]
+handle_outgoing_data_frame
+                        0x08001ce9   0x88  Code  Lc  msp_exp_callback.o [1]
+handle_outgoing_frame   0x08001c55   0x76  Code  Lc  msp_exp_callback.o [1]
+handle_outgoing_response_frame
+                        0x08001ccb   0x1e  Code  Lc  msp_exp_callback.o [1]
+has_function_to_execute
+                        0x20001203    0x1  Data  Gb  main.o [1]
+hdac                    0x200011d0   0x10  Data  Gb  dac.o [1]
+hi2c1                   0x20001148   0x4c  Data  Gb  i2c.o [1]
+huart1                  0x2000106c   0x80  Data  Gb  usart.o [1]
+i                       0x200011f0    0x4  Data  Gb  msp_handlers.o [1]
+is_piezo_running        0x20001209    0x1  Data  Gb  power_management.o [1]
+is_sic_running          0x20001208    0x1  Data  Gb  power_management.o [1]
+main                    0x08000d89   0xa0  Code  Gb  main.o [1]
+memchr                  0x08005241   0x18  Code  Gb  memchr.o [4]
+msp_calculate_table_crc32
+                        0x08004155   0x36  Code  Lc  msp_crc.o [1]
+msp_crc32               0x0800414d    0x8  Code  Gb  msp_crc.o [1]
+msp_crc32_lookup        0x0800418b   0x36  Code  Lc  msp_crc.o [1]
+msp_error_code_receive  0x20001204    0x1  Data  Gb  main.o [1]
+msp_error_code_send     0x20001205    0x1  Data  Gb  main.o [1]
+msp_exp_frame_fcs_valid
+                        0x08003d87   0x34  Code  Gb  msp_exp_frame.o [1]
+msp_exp_frame_format_empty_header
+                        0x08003df1   0x12  Code  Gb  msp_exp_frame.o [1]
+msp_exp_frame_format_header
+                        0x08003dbb   0x36  Code  Gb  msp_exp_frame.o [1]
+msp_exp_frame_generate_fcs
+                        0x08003d55   0x32  Code  Gb  msp_exp_frame.o [1]
+msp_exp_state           0x20001194   0x24  Data  Gb  msp_exp_state.o [1]
+msp_exp_state_get_seqflags
+                        0x08002bed   0x1a  Code  Gb  msp_exp_state.o [1]
+msp_exp_state_initialize
+                        0x08002bc9   0x24  Code  Gb  msp_exp_state.o [1]
+msp_exprecv_complete    0x08003e8f    0x2  Code  Gb  msp_handlers.o [1]
+msp_exprecv_data        0x08003e8d    0x2  Code  Gb  msp_handlers.o [1]
+msp_exprecv_error       0x08003e91    0x2  Code  Gb  msp_handlers.o [1]
+msp_exprecv_start       0x08003e8b    0x2  Code  Gb  msp_handlers.o [1]
+msp_exprecv_syscommand  0x08003e93   0x8e  Code  Gb  msp_handlers.o [1]
+msp_expsend_complete    0x08003e6f   0x1a  Code  Gb  msp_handlers.o [1]
+msp_expsend_data        0x08003e4f   0x20  Code  Gb  msp_handlers.o [1]
+msp_expsend_error       0x08003e89    0x2  Code  Gb  msp_handlers.o [1]
+msp_expsend_start       0x08003e31   0x1e  Code  Gb  msp_handlers.o [1]
+msp_from_bigendian32    0x08003e15   0x1c  Code  Gb  msp_endian.o [1]
+msp_get_flag_pos        0x08002d8b   0xba  Code  Lc  msp_seqflags.o [1]
+msp_have_table_crc32    0x20001206    0x1  Data  Lc  msp_crc.o [1]
+msp_recv_callback       0x080018d1   0x5c  Code  Gb  msp_exp_callback.o [1]
+msp_send_callback       0x0800192d   0x58  Code  Gb  msp_exp_callback.o [1]
+msp_seqflags_get        0x08002c4f   0x32  Code  Gb  msp_seqflags.o [1]
+msp_seqflags_get_next   0x08002c81   0x48  Code  Gb  msp_seqflags.o [1]
+msp_seqflags_init       0x08002c11   0x3e  Code  Gb  msp_seqflags.o [1]
+msp_seqflags_is_set     0x08002cc9   0x54  Code  Gb  msp_seqflags.o [1]
+msp_seqflags_set        0x08002d1d   0x6e  Code  Gb  msp_seqflags.o [1]
+msp_table_crc32         0x2000001c  0x400  Data  Lc  msp_crc.o [1]
+msp_to_bigendian32      0x08003e03   0x12  Code  Gb  msp_endian.o [1]
+pFlash                  0x200011b8   0x18  Data  Gb  stm32l0xx_hal_flash.o [1]
+piezoBufferRxInt        0x2000041c  0x320  Data  Gb  Piezo.o [1]
+piezoBufferint8         0x20000fa4   0xc8  Data  Gb  Piezo.o [1]
+piezoData               0x20000edc   0xc8  Data  Gb  Piezo.o [1]
+piezo_checksum          0x080043f7   0x26  Code  Gb  Piezo.o [1]
+piezo_get_data          0x080042a9   0x16  Code  Gb  Piezo.o [1]
+piezo_get_data_length   0x080042bf    0x6  Code  Gb  Piezo.o [1]
+piezo_power_off         0x080048ef   0x36  Code  Gb  power_management.o [1]
+piezo_power_on          0x080048c1   0x2e  Code  Gb  power_management.o [1]
+piezo_read_data_records
+                        0x080042c5   0xde  Code  Gb  Piezo.o [1]
+piezo_start_exp         0x08004257   0x28  Code  Gb  Piezo.o [1]
+piezo_stop_exp          0x0800427f   0x2a  Code  Gb  Piezo.o [1]
+readADCvalues           0x08004567  0x266  Code  Gb  start_test.o [1]
+record_was_empty        0x080043a3   0x54  Code  Gb  Piezo.o [1]
+restore_seqflags        0x0800139d   0x3c  Code  Gb  interface_flags.o [1]
+saveDataPointer         0x20001207    0x1  Data  Gb  Piezo.o [1]
+save_seqflags           0x080013d9   0x24  Code  Gb  interface_flags.o [1]
+sec_hand                0x200011fc    0x4  Data  Lc  xfail_s.o [3]
+setDAC                  0x08004885   0x18  Code  Gb  start_test.o [1]
+setDAC_voltage          0x0800489d   0x12  Code  Gb  start_test.o [1]
+sic_get_data            0x080044bf   0x1e  Code  Gb  start_test.o [1]
+sic_power_off           0x08004947   0x2a  Code  Gb  power_management.o [1]
+sic_power_on            0x08004925   0x22  Code  Gb  power_management.o [1]
+sprintf                 0x08004b39   0x40  Code  Gb  sprintf.o [3]
+start_test              0x080044dd   0x8a  Code  Gb  start_test.o [1]
+strchr                  0x080051d1    0x2  Code  Gb  strchr.o [4]
+strlen                  0x08005231   0x10  Code  Gb  strlen.o [4]
+transferDirectionGlobal
+                        0x20001202    0x1  Data  Gb  main.o [1]
+turn_off_10v            0x08004991   0x10  Code  Gb  power_management.o [1]
+turn_off_48v            0x08004971   0x10  Code  Gb  power_management.o [1]
+turn_off_5v             0x08004981   0x10  Code  Gb  power_management.o [1]
+turn_off_vbat           0x080049a1   0x10  Code  Gb  power_management.o [1]
+uwTick                  0x200011f8    0x4  Data  Gb  stm32l0xx_hal.o [1]
+xm3_buffer              0x20000004    0x4  Data  Gb  Piezo.o [1]
+xm4_buffer              0x20000008    0x4  Data  Gb  Piezo.o [1]
+xu6_buffer              0x200011e0    0x8  Data  Gb  Piezo.o [1]
+
+
+[1] = C:\Users\Rasmus\examensarbete_sic_program\Examensarbete-SiC-Program\sic\EWARM\SiCMiC\Obj
+[2] = command line
+[3] = dl6M_tln.a
+[4] = rt6M_tl.a
+[5] = shb_l.a
+
+  21 630 bytes of readonly  code memory
+     126 bytes of readonly  data memory
+   5 639 bytes of readwrite data memory
+
+Errors: none
+Warnings: none
