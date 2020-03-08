@@ -3,7 +3,7 @@
  can not guarantee that the code will work in other cases. 
 
 ## Requirements
-The code was written and tested on python 3.7.
+The code was written and tested on python 3.7 with the following packages.
 
     Python 3.7
     Matplotlib
